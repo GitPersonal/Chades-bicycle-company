@@ -1,12 +1,35 @@
 body {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
-  background-color: #FFEC00; }
+  padding: 0; }
+  body #cbc-header {
+    width: 100%;
+    float: left;
+    background-color: #FFEC00; }
+    body #cbc-header .cbc-logo {
+      float: left;
+      width: 35%;
+      margin: 1% 0 0 4%; }
+    body #cbc-header .cbc-nav {
+      width: 50%;
+      float: right;
+      padding-top: 2.5em; }
+      body #cbc-header .cbc-nav ul {
+        width: 96%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        margin: 0; }
+        body #cbc-header .cbc-nav ul li {
+          display: inline-block;
+          width: 30%; }
+  body a {
+    text-decoration: none; }
   body #cbc-main-container {
-    background: tomato;
+    clear: both;
+    background: #9013FE;
     max-width: 100%;
-    background-image: url(../images/bike_bg.jpg);
+    background-image: url(../images/bike_bg_filter.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

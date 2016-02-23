@@ -1,13 +1,47 @@
+@import "fonts";
+
+
 body{
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-	background-color: #FFEC00;
 
-	#cbc-main-container{
-		background: tomato;
+	#cbc-header{
+		width: 100%;
+		float: left;
+		background-color: #FFEC00;
+
+		.cbc-logo{
+			    float: left;
+	    		width: 35%;
+	    		margin: 1% 0 0 4%;
+		}
+
+		.cbc-nav{width: 50%;
+		    	 float: right;
+		     	 padding-top: 2.5em;
+
+				ul{ width: 96%;
+			    	display: inline-block;
+			    	text-align: center;
+			    	padding: 0;
+			    	margin: 0;
+						li{
+							display: inline-block;
+				    		width: 30%;
+							}
+					}
+			}
+
+	}
+	& a{text-decoration: none;}
+
+
+	#cbc-main-container{clear: both;
+		 // opacity: 0.2;
+		background: #9013FE;
 		max-width: 100%;
-		background-image: url(../images/bike_bg.jpg);
+		background-image: url(../images/bike_bg_filter.jpg);
 		background-repeat: no-repeat;
 		background-position: center center; 
 		background-size: cover;
@@ -17,7 +51,19 @@ body{
 
 	}
 
+	// .cbc-style-img{
+	// 	background-color:red;
+	// }
+
 		img{
 			max-width: 100%;
 		}
 }
+
+
+
+
+
+
+
+
