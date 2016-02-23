@@ -1,8 +1,23 @@
-#cbc-main-container{
-	background: tomato;
+body{
 	width: 100%;
-	background-image: url(../images/bike_bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center center; 
-	background-size: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFEC00;
+
+	#cbc-main-container{
+		background: tomato;
+		max-width: 100%;
+		background-image: url(../images/bike_bg.jpg);
+		background-repeat: no-repeat;
+		background-position: center center; 
+		background-size: cover;
+		// background-attachment: fixed;
+		height:1000px;
+
+
+	}
+
+		img{
+			max-width: 100%;
+		}
 }
