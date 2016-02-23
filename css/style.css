@@ -1,5 +1,9 @@
 #cbc-main-container {
-  background: gold;
-  width: 100%; }
+  background: tomato;
+  width: 100%;
+  background-image: url(../images/bike_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%; }
 
 /*# sourceMappingURL=style.css.map */
