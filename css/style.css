@@ -1,21 +1,23 @@
 body {
   width: 100%;
   margin: 0 auto;
-  padding: 0; }
+  padding: 0;
+  font-family: Arial, sans-serif; }
   body #cbc-header {
     width: 100%;
     float: left;
+    padding-bottom: .5em;
     background-color: #FFEC00; }
     body #cbc-header .cbc-logo {
       float: left;
       width: 35%;
-      margin: 1% 0 0 4%; }
+      margin: 1% 0 0 2%; }
     body #cbc-header .cbc-nav {
-      width: 50%;
+      width: 61%;
       float: right;
       padding-top: 2.5em; }
       body #cbc-header .cbc-nav ul {
-        width: 96%;
+        width: 100%;
         display: inline-block;
         text-align: center;
         padding: 0;
@@ -23,6 +25,14 @@ body {
         body #cbc-header .cbc-nav ul li {
           display: inline-block;
           width: 30%; }
+        body #cbc-header .cbc-nav ul #first-link-style {
+          padding-left: 7%; }
+        body #cbc-header .cbc-nav ul #second-link-style {
+          text-align: right;
+          width: 26%; }
+        body #cbc-header .cbc-nav ul #last-link-style {
+          width: 18%;
+          text-align: right; }
   body a {
     text-decoration: none; }
   body #cbc-main-container {
@@ -33,7 +43,48 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 1000px; }
+    height: 600px; }
+    body #cbc-main-container .cbc-welcome {
+      position: absolute;
+      top: 1em;
+      left: 14%;
+      font-size: 3em;
+      font-weight: normal;
+      color: #FFEC00;
+      text-decoration: underline; }
+    body #cbc-main-container .cbc-middle-text {
+      position: absolute;
+      top: 4em;
+      left: 8%;
+      font-size: 3em;
+      color: #FFEC00; }
+    body #cbc-main-container .cbc-coming-soon {
+      position: absolute;
+      bottom: 2em;
+      left: 31%;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 2em; }
+  body .cbc-style-img {
+    background-color: red;
+    position: relative; }
+  body .cbc-footer {
+    background-color: #FFEC00;
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+    body .cbc-footer .cbc-address {
+      width: 100%;
+      line-height: .25em; }
+    body .cbc-footer .cbc-info-text {
+      width: 45%;
+      text-align: center;
+      line-height: .05em;
+      margin: 0 auto; }
+      body .cbc-footer .cbc-info-text .cbc-copy {
+        text-align: left; }
+      body .cbc-footer .cbc-info-text .cbc-email-logo {
+        text-align: left; }
   body img {
     max-width: 100%; }
 
