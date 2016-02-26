@@ -45,7 +45,9 @@ body{
 	& a{text-decoration: none;}
 
 
-	#cbc-main-container{clear: both;
+	#cbc-main-container{
+			overflow: scroll;
+		clear: both;
 		 // opacity: 0.2;
 		background: #9013FE;
 		max-width: 100%;
@@ -63,7 +65,7 @@ body{
 			    font-size: 3em;
 			    font-weight: normal;
 			    color: #FFEC00;
-			    
+
 			    text-decoration: underline;
 		}
 
@@ -80,6 +82,30 @@ body{
 			 	 	color: #ffffff;
 			 	 	font-weight: 400;
 			 	    font-size: 2em;}
+
+
+			.cbc-left-content{width: 30%;float: left;margin: 0 auto;background: silver;text-align: center;}
+			.cbc-wrapper-table{width: 40%;float: left;margin: 0 auto;background: white;
+				table{
+					margin: 0 auto;
+					width: 90%;
+					border: 1px black solid;
+				caption{
+						font-size: 1.5em;
+						color: black;
+						font-weight: 600;
+						padding: .5em 0;
+					}
+					thead{
+						tr{
+							th{font-size: 1em;
+								text-align: center;		
+								}
+						}
+					}
+				}
+			}
+			.cbc-dates{width: 30%;float: left;margin: 0 auto;background: gold;text-align: center;} 	    
 	}
 
 	.cbc-style-img{
@@ -112,6 +138,8 @@ body{
 		img{
 			max-width: 100%;
 		}
+
+
 
 } // body ends
 
