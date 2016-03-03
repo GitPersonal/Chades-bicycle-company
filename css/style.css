@@ -78,17 +78,36 @@ body {
       margin: 0 auto;
       background: white; }
       body #cbc-main-container .cbc-wrapper-table table {
+        background-color: lightblue;
+        border-collapse: collapse;
         margin: 0 auto;
         width: 90%;
-        border: 1px black solid; }
+        border: 1px navy solid; }
         body #cbc-main-container .cbc-wrapper-table table caption {
           font-size: 1.5em;
           color: black;
           font-weight: 600;
-          padding: .5em 0; }
-        body #cbc-main-container .cbc-wrapper-table table thead tr th {
-          font-size: 1em;
+          padding: .5em 0;
           text-align: center; }
+        body #cbc-main-container .cbc-wrapper-table table thead {
+          text-align: center; }
+          body #cbc-main-container .cbc-wrapper-table table thead .cbc-tr-style {
+            text-align: center;
+            width: 100%; }
+            body #cbc-main-container .cbc-wrapper-table table thead .cbc-tr-style .cbc-month {
+              padding-top: 3em; }
+        body #cbc-main-container .cbc-wrapper-table table tbody {
+          width: 100%; }
+          body #cbc-main-container .cbc-wrapper-table table tbody tr {
+            text-align: center; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr .important-dates {
+              color: red; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr th {
+              font-size: 1em;
+              text-align: center;
+              border: 1px solid navy; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr td {
+              border: 1px solid navy; }
     body #cbc-main-container .cbc-dates {
       width: 30%;
       float: left;

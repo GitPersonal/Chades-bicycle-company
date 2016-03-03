@@ -46,16 +46,14 @@ body{
 
 
 	#cbc-main-container{
-			overflow: scroll;
+		overflow: scroll;
 		clear: both;
-		 // opacity: 0.2;
 		background: #9013FE;
 		max-width: 100%;
 		background-image: url(../images/bike_bg_filter.jpg);
 		background-repeat: no-repeat;
 		background-position: center center; 
 		background-size: cover;
-		// background-attachment: fixed;
 		height:600px;
 
 		.cbc-welcome{
@@ -65,7 +63,6 @@ body{
 			    font-size: 3em;
 			    font-weight: normal;
 			    color: #FFEC00;
-
 			    text-decoration: underline;
 		}
 
@@ -87,22 +84,50 @@ body{
 			.cbc-left-content{width: 30%;float: left;margin: 0 auto;background: silver;text-align: center;}
 			.cbc-wrapper-table{width: 40%;float: left;margin: 0 auto;background: white;
 				table{
+					background-color: lightblue;
+					border-collapse: collapse;
 					margin: 0 auto;
 					width: 90%;
-					border: 1px black solid;
+					border: 1px navy solid;
 				caption{
 						font-size: 1.5em;
 						color: black;
 						font-weight: 600;
 						padding: .5em 0;
+						text-align: center;
 					}
 					thead{
-						tr{
-							th{font-size: 1em;
-								text-align: center;		
-								}
+						
+						text-align: center;
+						
+						.cbc-tr-style{
+							text-align: center;
+							width: 100%;
+							.cbc-month{
+								    padding-top: 3em;
+
+							}
 						}
 					}
+
+						tbody{width: 100%;
+							 
+
+							tr{text-align: center;
+									
+									.important-dates{
+										color: red;
+									}
+								
+							th{font-size: 1em;
+								text-align: center;
+								border: 1px solid navy;		
+								}
+								td{
+									border: 1px solid navy;
+								}	
+							}
+						}
 				}
 			}
 			.cbc-dates{width: 30%;float: left;margin: 0 auto;background: gold;text-align: center;} 	    
