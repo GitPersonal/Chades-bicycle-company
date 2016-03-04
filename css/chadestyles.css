@@ -12,12 +12,12 @@ body {
     background-color: #FFEC00; }
     body #cbc-header .cbc-logo {
       float: left;
-      width: 35%;
+      width: 28%;
       margin: 1% 0 0 2%; }
     body #cbc-header .cbc-nav {
-      width: 62%;
+      width: 70%;
       float: right;
-      padding-top: 2.5em; }
+      padding-top: 1.5em; }
       body #cbc-header .cbc-nav ul {
         width: 100%;
         display: inline-block;
@@ -165,4 +165,4 @@ body {
   body img {
     max-width: 100%; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=chadestyles.css.map */
