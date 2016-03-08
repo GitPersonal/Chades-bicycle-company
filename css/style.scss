@@ -7,7 +7,7 @@ body{
 	padding: 0;
 	font-family: $font-family-cbc;
 
-	img{border:0;}
+	
 		#cbc-header{
 			width: 100%;
 			float: left;
@@ -21,7 +21,7 @@ body{
 	    		margin: 1% 0 0 2%;
 		}
 
-		.cbc-nav{width: 62%;
+		.cbc-nav{width: 61%;
 		    	 float: right;
 		     	 padding-top: 2.5em;
 
@@ -46,11 +46,11 @@ body{
 
 
 	#cbc-main-container{
-		overflow: scroll;
+		// overflow: scroll;
 		clear: both;
 		background: #9013FE;
 		max-width: 100%;
-		background-image: url(../images/jac_2_bike_bg_filter.jpg);
+		background-image: url(../images/bike_bg_filter.jpg);
 		background-repeat: no-repeat;
 		background-position: center center; 
 		background-size: cover;
@@ -81,92 +81,29 @@ body{
 			 	    font-size: 2em;}
 
 
-			.cbc-left-content{width: 30%;float: left;margin: 0 auto;background: silver;text-align: center;opacity:.0;}
+			.cbc-left-content{width: 30%;float: left;margin: 0 auto;background: silver;text-align: center;}
 			.cbc-wrapper-table{width: 40%;float: left;margin: 0 auto;background: white;
 				table{
-					background-color: lightblue;
-					border-collapse: collapse;
+					
 					margin: 0 auto;
 					width: 90%;
-					border: 1px navy solid;
+					border: 1px black solid;
 				caption{
 						font-size: 1.5em;
 						color: black;
 						font-weight: 600;
 						padding: .5em 0;
-						text-align: center;
 					}
 					thead{
-						
-						text-align: center;
-						
-						.cbc-tr-style{
-							text-align: center;
-							width: 100%;
-							.cbc-month{
-								    padding: 1em 0 1em 0;
-								    text-align: center;
-								   
-
-							}
+						tr{
+							th{font-size: 1em;
+								text-align: center;		
+								}
 						}
 					}
-
-						tbody{width: 100%;
-							 
-
-							tr{text-align: center;
-									
-									.important-dates{
-										color: red;
-									}
-								
-							th{font-size: 1em;
-								text-align: center;
-								border: 1px solid navy;		
-								}
-								td{
-									border: 1px solid navy;
-								}	
-							}
-						}
 				}
 			}
-			.cbc-dates{width: 30%;float: left;margin: 0 auto;text-align: center;
-				// background: #9013FE;
-					.cbc-heading{color: #FFEC00;}
-					p{
-						text-align: left;
-						padding: 0 5%;
-						color: #FFEC00;
-					}
-			} 	    
-
-		.cbc-message{
-			    width: 25%;
-    			display: inline-block;
-    			padding-left: 13%;
-    			color: #FFEC00;
-		}	
-
-		.cbc-hours{
-				width: 25%;
-    			display: inline-block;
-    			color: #FFEC00;
-    				h2{padding-top: 2em;color: #FFEC00;}
-    			}
-
-		.cbc-address{
-				width: 25%;
-    			display: inline-block;
-    			color: #FFEC00;
-    			}
-
-    	.cbc-map{
-    			width: 67%;
-    			padding: 4em 1% 0 14%;
-    			}
-
+			.cbc-dates{width: 30%;float: left;margin: 0 auto;background: gold;text-align: center;} 	    
 	}
 
 	.cbc-style-img{
