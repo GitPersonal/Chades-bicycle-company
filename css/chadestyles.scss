@@ -33,7 +33,7 @@ body{
 						li{
 							display: inline-block;
 				    		width: 30%;
-				    			
+
 							}
 							#first-link-style{padding-left: 7%;}
 				    			#second-link-style{text-align: right;width: 26%;}
@@ -52,7 +52,7 @@ body{
 		max-width: 100%;
 		background-image: url(../images/jac_2_bike_bg_filter.jpg);
 		background-repeat: no-repeat;
-		background-position: center center; 
+		background-position: center center;
 		background-size: cover;
 		height:600px;
 
@@ -97,37 +97,37 @@ body{
 						text-align: center;
 					}
 					thead{
-						
+
 						text-align: center;
-						
+
 						.cbc-tr-style{
 							text-align: center;
 							width: 100%;
 							.cbc-month{
 								    padding: 1em 0 1em 0;
 								    text-align: center;
-								   
+
 
 							}
 						}
 					}
 
 						tbody{width: 100%;
-							 
+
 
 							tr{text-align: center;
-									
+
 									.important-dates{
 										color: red;
 									}
-								
+
 							th{font-size: 1em;
 								text-align: center;
-								border: 1px solid navy;		
+								border: 1px solid navy;
 								}
 								td{
 									border: 1px solid navy;
-								}	
+								}
 							}
 						}
 				}
@@ -140,14 +140,14 @@ body{
 						padding: 0 5%;
 						color: #FFEC00;
 					}
-			} 	    
+			}
 
 		.cbc-message{
 			    width: 25%;
     			display: inline-block;
     			padding-left: 13%;
     			color: #FFEC00;
-		}	
+		}
 
 		.cbc-hours{
 				width: 25%;
@@ -167,6 +167,59 @@ body{
     			padding: 4em 1% 0 14%;
     			}
 
+
+//products page
+.cbc-box-text{
+	color: #FFEC00;
+	width:100%;
+	text-align:center;
+}
+.boxes-container{
+	width:100%;
+	margin: 0 1%;
+	padding:0;
+
+
+	.box-one{vertical-align:top;
+		width:31%;
+		background:rgba(255,255,255,0.5);
+		padding:1%;
+		display:inline-block;
+		.box-header{color: #9013FE;}
+		.box-text{color: #000000;}
+		.box-price{}
+		.box-status{}
+	}
+	.box-two{vertical-align:top;
+		width:31%;
+		background:rgba(255,255,255,0.5);
+		padding:1%;
+		display:inline-block;
+		.box-header{color: #9013FE;}
+		.box-text{color: #000000;}
+		.box-price{}
+		.box-status{}
+	}
+	.box-three{vertical-align:top;
+		width:31%;
+		background:rgba(255,255,255,0.5);
+		padding:1%;
+		display:inline-block;
+		.box-header{color: #9013FE;}
+		.box-text{color: #000000;}
+		.box-price{}
+		.box-status{}
+	}
+	.box-item-status{
+		width:100%;
+		text-align:center;
+		color:#ffffff;
+	}
+}
+
+
+
+// end of main cbc-main-container
 	}
 
 	.cbc-style-img{
@@ -178,14 +231,14 @@ body{
 	background-color:#FFEC00;
 	display: inline-block;
 	width: 100%;
-	text-align: center; 
-	
+	text-align: center;
+
 
 .cbc-address{
 	width: 100%;
 	line-height: .25em;
 
-}	
+}
 	.cbc-info-text{
 		width:45%;
 		text-align: center;
@@ -194,7 +247,7 @@ body{
 		.cbc-copy{text-align: left;}
 		.cbc-email-logo{text-align: left;}
 	}
-}	
+}
 
 		img{
 			max-width: 100%;
@@ -203,11 +256,3 @@ body{
 
 
 } // body ends
-
-
-
-
-
-
-
-

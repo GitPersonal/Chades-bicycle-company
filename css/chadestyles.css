@@ -142,6 +142,48 @@ body {
     body #cbc-main-container .cbc-map {
       width: 67%;
       padding: 4em 1% 0 14%; }
+    body #cbc-main-container .cbc-box-text {
+      color: #FFEC00;
+      width: 100%;
+      text-align: center; }
+    body #cbc-main-container .boxes-container {
+      width: 100%;
+      margin: 0 1%;
+      padding: 0; }
+      body #cbc-main-container .boxes-container .box-one {
+        vertical-align: top;
+        width: 31%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 1%;
+        display: inline-block; }
+        body #cbc-main-container .boxes-container .box-one .box-header {
+          color: #9013FE; }
+        body #cbc-main-container .boxes-container .box-one .box-text {
+          color: #000000; }
+      body #cbc-main-container .boxes-container .box-two {
+        vertical-align: top;
+        width: 31%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 1%;
+        display: inline-block; }
+        body #cbc-main-container .boxes-container .box-two .box-header {
+          color: #9013FE; }
+        body #cbc-main-container .boxes-container .box-two .box-text {
+          color: #000000; }
+      body #cbc-main-container .boxes-container .box-three {
+        vertical-align: top;
+        width: 31%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 1%;
+        display: inline-block; }
+        body #cbc-main-container .boxes-container .box-three .box-header {
+          color: #9013FE; }
+        body #cbc-main-container .boxes-container .box-three .box-text {
+          color: #000000; }
+      body #cbc-main-container .boxes-container .box-item-status {
+        width: 100%;
+        text-align: center;
+        color: #ffffff; }
   body .cbc-style-img {
     background-color: red;
     position: relative; }
