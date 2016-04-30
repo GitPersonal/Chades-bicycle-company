@@ -13,11 +13,10 @@ body {
     body #cbc-header .cbc-logo {
       float: left;
       width: 28%;
-      margin: 1% 0 0 2%; }
+      margin: 1% 0 0 1%; }
     body #cbc-header .cbc-nav {
-      width: 70%;
-      float: right;
-      padding-top: 1.5em; }
+      width: 100%;
+      padding-top: 1.75em; }
       body #cbc-header .cbc-nav ul {
         width: 100%;
         display: inline-block;
@@ -26,15 +25,16 @@ body {
         margin: 0; }
         body #cbc-header .cbc-nav ul li {
           display: inline-block;
-          width: 30%; }
+          width: 15%;
+          font-size: .75em; }
         body #cbc-header .cbc-nav ul #first-link-style {
-          padding-left: 7%; }
+          padding-left: 0%; }
         body #cbc-header .cbc-nav ul #second-link-style {
           text-align: right;
           width: 26%; }
         body #cbc-header .cbc-nav ul #last-link-style {
-          width: 18%;
-          text-align: right; }
+          width: 10%;
+          text-align: center; }
   body a {
     text-decoration: none; }
   body #cbc-main-container {
@@ -142,6 +142,10 @@ body {
     body #cbc-main-container .cbc-map {
       width: 67%;
       padding: 4em 1% 0 14%; }
+    body #cbc-main-container .cbc-thead-style {
+      background: rgba(144, 19, 254, 0.3); }
+      body #cbc-main-container .cbc-thead-style tr:nth-of-type(odd) {
+        background: rgba(255, 255, 255, 0.4); }
     body #cbc-main-container .cbc-box-text {
       color: #FFEC00;
       width: 100%;
@@ -159,7 +163,12 @@ body {
         body #cbc-main-container .boxes-container .box-one .box-header {
           color: #000000; }
         body #cbc-main-container .boxes-container .box-one .box-text {
-          color: #000000; }
+          color: #000000;
+          font-size: .75em; }
+        body #cbc-main-container .boxes-container .box-one .box-price {
+          text-transform: uppercase; }
+        body #cbc-main-container .boxes-container .box-one .box-status {
+          color: red; }
       body #cbc-main-container .boxes-container .box-two {
         vertical-align: top;
         width: 31%;
@@ -169,7 +178,12 @@ body {
         body #cbc-main-container .boxes-container .box-two .box-header {
           color: #000000; }
         body #cbc-main-container .boxes-container .box-two .box-text {
-          color: #000000; }
+          color: #000000;
+          font-size: .75em; }
+        body #cbc-main-container .boxes-container .box-two .box-price {
+          text-transform: uppercase; }
+        body #cbc-main-container .boxes-container .box-two .box-status {
+          color: red; }
       body #cbc-main-container .boxes-container .box-three {
         vertical-align: top;
         width: 31%;
@@ -179,7 +193,12 @@ body {
         body #cbc-main-container .boxes-container .box-three .box-header {
           color: #000000; }
         body #cbc-main-container .boxes-container .box-three .box-text {
-          color: #000000; }
+          color: #000000;
+          font-size: .75em; }
+        body #cbc-main-container .boxes-container .box-three .box-price {
+          text-transform: uppercase; }
+        body #cbc-main-container .boxes-container .box-three .box-status {
+          color: red; }
       body #cbc-main-container .boxes-container .box-item-status {
         width: 100%;
         text-align: center;
@@ -188,6 +207,14 @@ body {
       color: #FFEC00;
       font-size: 2em;
       text-align: center; }
+    body #cbc-main-container .faq-questions {
+      padding: 2% 10%;
+      background: rgba(255, 255, 255, 0.5); }
+      body #cbc-main-container .faq-questions ol li {
+        font-size: 1em;
+        line-height: 2em; }
+      body #cbc-main-container .faq-questions ol span {
+        font-weight: bold; }
     body #cbc-main-container .cbc-sitemap-wrapper {
       display: inline-block;
       width: 100%; }
@@ -202,7 +229,7 @@ body {
         text-align: center;
         font-weight: bold; }
         body #cbc-main-container .cbc-sitemap-wrapper .cbc-sitemap-one li {
-          margin: 2% 0; }
+          margin: .5em 0; }
       body #cbc-main-container .cbc-sitemap-wrapper .cbc-sitemap-two {
         display: inline-block;
         width: 48%;
@@ -210,9 +237,29 @@ body {
         text-align: center;
         font-weight: bold; }
         body #cbc-main-container .cbc-sitemap-wrapper .cbc-sitemap-two li {
-          margin: 2% 0; }
+          margin: .5em 0; }
       body #cbc-main-container .cbc-sitemap-wrapper a {
-        color: #ffffff; }
+        display: block;
+        background: rgba(255, 255, 255, 0.75);
+        padding: 3em 2%; }
+    body #cbc-main-container .cbc-bike-links {
+      color: #FFEC00;
+      font-size: 2em;
+      text-align: center; }
+    body #cbc-main-container .cbc-links {
+      width: 100%;
+      margin: 0 15%; }
+      body #cbc-main-container .cbc-links li {
+        margin: .15em 0;
+        padding: .15em .25%;
+        list-style-type: none;
+        display: inline-block;
+        width: 33%;
+        text-align: center; }
+      body #cbc-main-container .cbc-links a {
+        display: block;
+        background: rgba(255, 255, 255, 0.75);
+        padding: 3em 2%; }
   body .cbc-style-img {
     background-color: red;
     position: relative; }

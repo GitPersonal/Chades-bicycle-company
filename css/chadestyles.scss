@@ -18,12 +18,12 @@ body{
 		.cbc-logo{
 			    float: left;
 	    		width: 28%;
-	    		margin: 1% 0 0 2%;
+	    		margin: 1% 0 0 1%;
 		}
 
-		.cbc-nav{width: 70%;
-		    	 float: right;
-		     	 padding-top: 1.5em;
+		.cbc-nav{width: 100%;
+		    	// float: right;
+		     	 padding-top: 1.75em;
 
 				ul{ width: 100%;
 			    	display: inline-block;
@@ -32,12 +32,12 @@ body{
 			    	margin: 0;
 						li{
 							display: inline-block;
-				    		width: 30%;
-
+				    	width: 15%;
+							font-size: .75em;
 							}
-							#first-link-style{padding-left: 7%;}
+							#first-link-style{padding-left: 0%;}
 				    			#second-link-style{text-align: right;width: 26%;}
-				    			#last-link-style{width: 18%;text-align: right;}
+				    			#last-link-style{width: 10%;text-align: center;}
 					}
 			}
 
@@ -166,6 +166,14 @@ body{
     			width: 67%;
     			padding: 4em 1% 0 14%;
     			}
+// Directory
+.cbc-thead-style{
+	background:rgba(144, 19, 254, 0.3);
+	tr:nth-of-type(odd) {
+	background: rgba(255, 255, 255, 0.4);
+	}
+}
+
 
 
 //products page
@@ -186,9 +194,9 @@ body{
 		padding:1%;
 		display:inline-block;
 		.box-header{color: #000000;}
-		.box-text{color: #000000;}
-		.box-price{}
-		.box-status{}
+		.box-text{color: #000000;font-size: .75em;}
+		.box-price{text-transform: uppercase;}
+		.box-status{color:red;}
 	}
 	.box-two{vertical-align:top;
 		width:31%;
@@ -196,9 +204,9 @@ body{
 		padding:1%;
 		display:inline-block;
 		.box-header{color: #000000;}
-		.box-text{color: #000000;}
-		.box-price{}
-		.box-status{}
+		.box-text{color: #000000;font-size: .75em;}
+		.box-price{text-transform: uppercase;}
+		.box-status{color:red;}
 	}
 	.box-three{vertical-align:top;
 		width:31%;
@@ -206,9 +214,9 @@ body{
 		padding:1%;
 		display:inline-block;
 		.box-header{color: #000000;}
-		.box-text{color: #000000;}
-		.box-price{}
-		.box-status{}
+		.box-text{color: #000000;font-size: .75em;}
+		.box-price{text-transform: uppercase;}
+		.box-status{color:red;}
 	}
 	.box-item-status{
 		width:100%;
@@ -220,20 +228,60 @@ body{
 
 // FAQ page
 .cbc-faq-heading{color:#FFEC00;font-size:2em;text-align:center;}
-
+.faq-questions{padding:2% 10%;background:rgba(255,255,255, 0.5);
+	ol{
+		li{font-size:1em;line-height:2em;}
+		span{font-weight:bold;}
+	}
+}
 
 // Sitemap page
 	.cbc-sitemap-wrapper{
-				display:inline-block;width:100%;
+				display:inline-block;
+				width:100%;
+
 				.cbc-sitemap-page{color:#FFEC00;font-size:2em;text-align:center;}
-			.cbc-sitemap-one{display:inline-block;width:48%;list-style-type:none;text-align:center;font-weight:bold;
-				li{margin:2% 0;}
-			}
-			.cbc-sitemap-two{display:inline-block;width:48%;list-style-type:none;text-align:center;font-weight:bold;
-				li{margin:2% 0;}
-			}
-			& a{color:#ffffff;}
+
+					.cbc-sitemap-one{
+							display:inline-block;
+							width:48%;
+							list-style-type:none;
+							text-align:center;
+							font-weight:bold;
+							li{
+								margin: .5em 0;
+							}
+					}
+					.cbc-sitemap-two{
+							display:inline-block;
+							width:48%;
+							list-style-type:none;
+							text-align:center;
+							font-weight:bold;
+								li{
+									margin: .5em 0;
+								}
+						}
+			& a{display:block;background:rgba(255,255,255, 0.75);padding:3em 2%;}
 	}
+
+// Bike Club Links
+.cbc-bike-links{color:#FFEC00;font-size:2em;text-align:center;}
+.cbc-links{
+	width: 100%;
+	margin:0 15%;
+	li{
+
+		margin:.15em 0;
+		padding:.15em .25%;
+		list-style-type: none;
+		display:inline-block;
+		width:33%;
+		text-align:center;
+	}
+	& a{display:block;background:rgba(255,255,255, 0.75);padding:3em 2%;}
+}
+
 
 
 
