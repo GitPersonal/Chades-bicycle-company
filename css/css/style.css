@@ -1,0 +1,168 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif; }
+  body img {
+    border: 0; }
+  body #cbc-header {
+    width: 100%;
+    float: left;
+    padding-bottom: .5em;
+    background-color: #FFEC00; }
+    body #cbc-header .cbc-logo {
+      float: left;
+      width: 35%;
+      margin: 1% 0 0 2%; }
+    body #cbc-header .cbc-nav {
+      width: 62%;
+      float: right;
+      padding-top: 2.5em; }
+      body #cbc-header .cbc-nav ul {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        margin: 0; }
+        body #cbc-header .cbc-nav ul li {
+          display: inline-block;
+          width: 30%; }
+        body #cbc-header .cbc-nav ul #first-link-style {
+          padding-left: 7%; }
+        body #cbc-header .cbc-nav ul #second-link-style {
+          text-align: right;
+          width: 26%; }
+        body #cbc-header .cbc-nav ul #last-link-style {
+          width: 18%;
+          text-align: right; }
+  body a {
+    text-decoration: none; }
+  body #cbc-main-container {
+    overflow: scroll;
+    clear: both;
+    background: #9013FE;
+    max-width: 100%;
+    background-image: url(../images/jac_2_bike_bg_filter.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px; }
+    body #cbc-main-container .cbc-welcome {
+      position: absolute;
+      top: 1em;
+      left: 14%;
+      font-size: 3em;
+      font-weight: normal;
+      color: #FFEC00;
+      text-decoration: underline; }
+    body #cbc-main-container .cbc-middle-text {
+      position: absolute;
+      top: 4em;
+      left: 8%;
+      font-size: 3em;
+      color: #FFEC00; }
+    body #cbc-main-container .cbc-coming-soon {
+      position: absolute;
+      bottom: 2em;
+      left: 31%;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 2em; }
+    body #cbc-main-container .cbc-left-content {
+      width: 30%;
+      float: left;
+      margin: 0 auto;
+      background: silver;
+      text-align: center;
+      opacity: .0; }
+    body #cbc-main-container .cbc-wrapper-table {
+      width: 40%;
+      float: left;
+      margin: 0 auto;
+      background: white; }
+      body #cbc-main-container .cbc-wrapper-table table {
+        background-color: lightblue;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 90%;
+        border: 1px navy solid; }
+        body #cbc-main-container .cbc-wrapper-table table caption {
+          font-size: 1.5em;
+          color: black;
+          font-weight: 600;
+          padding: .5em 0;
+          text-align: center; }
+        body #cbc-main-container .cbc-wrapper-table table thead {
+          text-align: center; }
+          body #cbc-main-container .cbc-wrapper-table table thead .cbc-tr-style {
+            text-align: center;
+            width: 100%; }
+            body #cbc-main-container .cbc-wrapper-table table thead .cbc-tr-style .cbc-month {
+              padding: 1em 0 1em 0;
+              text-align: center; }
+        body #cbc-main-container .cbc-wrapper-table table tbody {
+          width: 100%; }
+          body #cbc-main-container .cbc-wrapper-table table tbody tr {
+            text-align: center; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr .important-dates {
+              color: red; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr th {
+              font-size: 1em;
+              text-align: center;
+              border: 1px solid navy; }
+            body #cbc-main-container .cbc-wrapper-table table tbody tr td {
+              border: 1px solid navy; }
+    body #cbc-main-container .cbc-dates {
+      width: 30%;
+      float: left;
+      margin: 0 auto;
+      text-align: center; }
+      body #cbc-main-container .cbc-dates .cbc-heading {
+        color: #FFEC00; }
+      body #cbc-main-container .cbc-dates p {
+        text-align: left;
+        padding: 0 5%;
+        color: #FFEC00; }
+    body #cbc-main-container .cbc-message {
+      width: 25%;
+      display: inline-block;
+      padding-left: 13%;
+      color: #FFEC00; }
+    body #cbc-main-container .cbc-hours {
+      width: 25%;
+      display: inline-block;
+      color: #FFEC00; }
+      body #cbc-main-container .cbc-hours h2 {
+        padding-top: 2em;
+        color: #FFEC00; }
+    body #cbc-main-container .cbc-address {
+      width: 25%;
+      display: inline-block;
+      color: #FFEC00; }
+    body #cbc-main-container .cbc-map {
+      width: 67%;
+      padding: 4em 1% 0 14%; }
+  body .cbc-style-img {
+    background-color: red;
+    position: relative; }
+  body .cbc-footer {
+    background-color: #FFEC00;
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+    body .cbc-footer .cbc-address {
+      width: 100%;
+      line-height: .25em; }
+    body .cbc-footer .cbc-info-text {
+      width: 45%;
+      text-align: center;
+      line-height: .05em;
+      margin: 0 auto; }
+      body .cbc-footer .cbc-info-text .cbc-copy {
+        text-align: left; }
+      body .cbc-footer .cbc-info-text .cbc-email-logo {
+        text-align: left; }
+  body img {
+    max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

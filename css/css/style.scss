@@ -1,0 +1,150 @@
+@import "fonts";
+
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: $font-family-cbc;
+
+	
+		#cbc-header{
+			width: 100%;
+			float: left;
+			padding-bottom: .5em;
+			background-color: #FFEC00;
+
+
+		.cbc-logo{
+			    float: left;
+	    		width: 35%;
+	    		margin: 1% 0 0 2%;
+		}
+
+		.cbc-nav{width: 61%;
+		    	 float: right;
+		     	 padding-top: 2.5em;
+
+				ul{ width: 100%;
+			    	display: inline-block;
+			    	text-align: center;
+			    	padding: 0;
+			    	margin: 0;
+						li{
+							display: inline-block;
+				    		width: 30%;
+				    			
+							}
+							#first-link-style{padding-left: 7%;}
+				    			#second-link-style{text-align: right;width: 26%;}
+				    			#last-link-style{width: 18%;text-align: right;}
+					}
+			}
+
+	}
+	& a{text-decoration: none;}
+
+
+	#cbc-main-container{
+		// overflow: scroll;
+		clear: both;
+		background: #9013FE;
+		max-width: 100%;
+		background-image: url(../images/bike_bg_filter.jpg);
+		background-repeat: no-repeat;
+		background-position: center center; 
+		background-size: cover;
+		height:600px;
+
+		.cbc-welcome{
+				position: absolute;
+			    top: 1em;
+			    left: 14%;
+			    font-size: 3em;
+			    font-weight: normal;
+			    color: #FFEC00;
+			    text-decoration: underline;
+		}
+
+		.cbc-middle-text{position: absolute;
+			    top: 4em;
+			    left: 8%;
+			    font-size: 3em;
+				color: #FFEC00;
+	}
+		.cbc-coming-soon{
+					position: absolute;
+			        bottom: 2em;
+    				left: 31%;
+			 	 	color: #ffffff;
+			 	 	font-weight: 400;
+			 	    font-size: 2em;}
+
+
+			.cbc-left-content{width: 30%;float: left;margin: 0 auto;background: silver;text-align: center;}
+			.cbc-wrapper-table{width: 40%;float: left;margin: 0 auto;background: white;
+				table{
+					
+					margin: 0 auto;
+					width: 90%;
+					border: 1px black solid;
+				caption{
+						font-size: 1.5em;
+						color: black;
+						font-weight: 600;
+						padding: .5em 0;
+					}
+					thead{
+						tr{
+							th{font-size: 1em;
+								text-align: center;		
+								}
+						}
+					}
+				}
+			}
+			.cbc-dates{width: 30%;float: left;margin: 0 auto;background: gold;text-align: center;} 	    
+	}
+
+	.cbc-style-img{
+		background-color:red;
+		position: relative;
+	}
+
+.cbc-footer{
+	background-color:#FFEC00;
+	display: inline-block;
+	width: 100%;
+	text-align: center; 
+	
+
+.cbc-address{
+	width: 100%;
+	line-height: .25em;
+
+}	
+	.cbc-info-text{
+		width:45%;
+		text-align: center;
+		line-height: .05em;
+		margin: 0 auto;
+		.cbc-copy{text-align: left;}
+		.cbc-email-logo{text-align: left;}
+	}
+}	
+
+		img{
+			max-width: 100%;
+		}
+
+
+
+} // body ends
+
+
+
+
+
+
+
+

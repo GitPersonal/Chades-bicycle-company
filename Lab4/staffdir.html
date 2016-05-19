@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chade&#39;s Bicycle Company</title>
+	<link rel="stylesheet" type="text/css" href="css/chadestyles.css">
+	<!-- <link href="mplstyles.css" rel="stylesheet" type="text/css" /> -->
+
+  <style media="screen">
+  table {
+width: 100%;
+border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+/*background: #eee;*/
+}
+th {
+/*background: #333;*/
+color: white;
+font-weight: bold;
+}
+td, th {
+padding: 6px;
+border: 1px solid #ccc;
+text-align: left;
+}
+  </style>
+	<script src="random.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		 function showImg() {
+		 /*
+				The showImg() function displays a random image from the
+				0.jpg through 9.jpg files. The random image is designed
+				to thwart hackers attempting to enter the library records
+				database by requiring visual confirmation.
+		 */
+
+				var imgNumber = randomInteger(9); // Return a random number from 0 to 9
+				document.write("<img src='"+imgNumber+".jpg' alt='' />");
+		 }
+	</script>
+</head>
+<body>
+	<header id="cbc-header">
+		<div class="cbc-logo">
+			<img src="images/jac_2_chades-bicycle-company.png" alt="Chade's Bicycle Company">
+		</div>
+
+		<nav class="cbc-nav">
+			<ul>
+				<li id="first-link-style"><a href="index.html" title="">Chade&#39;s Bicycle Company</a></li>
+				<li id="last-link-style"><a href="jac_2_cal.html" title="">Company Calendar</a></li>
+				<li id="last-link-style"><a href="jac_2_contact.html" title="">Contact us</a></li>
+				<li id="last-link-style"><a href="jac_4_product.html" title="">Products</a></li>
+				<li id="last-link-style"><a href="jac_4_faq.html" title="">FAQ</a></li>
+				<li id="last-link-style"><a href="jac_4_bikelink.html" title="">Bike Links</a></li>
+				<li id="last-link-style"><a href="jac_3_login.html" title="">Customer Login</a></li>
+				<li id="last-link-style"><a href="jac_4_staffdir.html" title="">Directory</a></li>
+			</ul>
+		</nav>
+	</header><!-- header -->
+
+<div id="cbc-main-container" class="cbc-style-img">
+  <table>
+	<thead class="cbc-thead-style">
+	<tr>
+		<th>Name</th>
+		<th>Phone</th>
+		<th>Email Address</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Michael Anderson, CEO</td>
+		<td>817.555.6610</td>
+		<td>michael.anderson@andersonbikes.com</td>
+	</tr>
+	<tr>
+		<td>Catherine Anding, Administrative Assistant</td>
+		<td>817.555.6620</td>
+		<td>catherine.anding@andersonbikes.com</td>
+	</tr>
+  <tr>
+		<td>James Hathaway, Design Manager</td>
+		<td>817.555.6630</td>
+		<td>james.hathaway@andersonbikes.com</td>
+	</tr>
+  <tr>
+		<td>Kristen Dalton, Accountant</td>
+		<td>817.555.6640</td>
+		<td>kristen.dalton@andersonbikes.com</td>
+	</tr>
+  <tr>
+		<td>William Carlton, Production Manager</td>
+		<td>817.555.6650</td>
+		<td>william.carlton@andersonbikes.com</td>
+	</tr>
+  <tr>
+    <td>Derek Scott, Store Manager</td>
+    <td>817.555.6660</td>
+    <td>derek.scott@andersonbikes.com</td>
+  </tr>
+	</tbody>
+</table>
+</div>
+<footer class="cbc-footer">
+	<div class="cbc-address">
+	<p>828 W. Harwood Road</p>
+	<p>Hurst, TX 76054</p>
+	<p>817-515-8223</p>
+	</div>
+
+	<div class="cbc-info-text">
+		<p class="cbc-copy">Chade&#39;s Bicycle Company &copy; Last Updated  February 17, 2016</p>
+		<p class="cbc-email-logo">Email <img src="images/jac_2_email-image.png" alt="Email image"></p>
+		<p class="cbc-sitemap"><a href="jac_4_sitemap.html">Site Map</a></p>
+	</div>
+</footer><!-- footer -->
+
+</body>
+</html>

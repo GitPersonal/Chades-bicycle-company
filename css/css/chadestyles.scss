@@ -7,7 +7,6 @@ body{
 	padding: 0;
 	font-family: $font-family-cbc;
 
-
 	img{border:0;}
 		#cbc-header{
 			width: 100%;
@@ -23,7 +22,7 @@ body{
 		}
 
 		.cbc-nav{width: 100%;
-		    	/* float: right;*/
+		    	// float: right;
 		     	 padding-top: 1.75em;
 
 				ul{ width: 100%;
@@ -35,7 +34,6 @@ body{
 							display: inline-block;
 				    	width: 15%;
 							font-size: .75em;
-
 							}
 							#first-link-style{padding-left: 0%;}
 				    			#second-link-style{text-align: right;width: 26%;}
@@ -135,7 +133,7 @@ body{
 				}
 			}
 			.cbc-dates{width: 30%;float: left;margin: 0 auto;text-align: center;
-				/* background: #9013FE;*/
+				// background: #9013FE;
 					.cbc-heading{color: #FFEC00;}
 					p{
 						text-align: left;
@@ -168,7 +166,7 @@ body{
     			width: 67%;
     			padding: 4em 1% 0 14%;
     			}
-/* Directory*/
+// Directory
 .cbc-thead-style{
 	background:rgba(144, 19, 254, 0.3);
 	tr:nth-of-type(odd) {
@@ -178,18 +176,7 @@ body{
 
 
 
-/*products page*/
-input{
-    width: 96%;
-    display: block;
-    margin: auto;
-    text-align: center;
-		height:2em;
-		font-size:1em;
-		background:#FFEC00;
-		border:none;
-}
-
+//products page
 .cbc-box-text{
 	color: #FFEC00;
 	width:100%;
@@ -239,7 +226,7 @@ input{
 }
 
 
-/* FAQ page*/
+// FAQ page
 .cbc-faq-heading{color:#FFEC00;font-size:2em;text-align:center;}
 .faq-questions{padding:2% 10%;background:rgba(255,255,255, 0.5);
 	ol{
@@ -248,7 +235,7 @@ input{
 	}
 }
 
-/* Sitemap page*/
+// Sitemap page
 	.cbc-sitemap-wrapper{
 				display:inline-block;
 				width:100%;
@@ -278,7 +265,7 @@ input{
 			& a{display:block;background:rgba(255,255,255, 0.75);padding:3em 2%;}
 	}
 
-/* Bike Club Links*/
+// Bike Club Links
 .cbc-bike-links{color:#FFEC00;font-size:2em;text-align:center;}
 .cbc-links{
 	width: 100%;
@@ -295,13 +282,10 @@ input{
 	& a{display:block;background:rgba(255,255,255, 0.75);padding:3em 2%;}
 }
 
-// Login page
-th{
-	background:#9013FE;
-}
 
 
-/* end of main cbc-main-container*/
+
+// end of main cbc-main-container
 	}
 
 	.cbc-style-img{
@@ -337,4 +321,4 @@ th{
 
 
 
-} /* body ends*/
+} // body ends

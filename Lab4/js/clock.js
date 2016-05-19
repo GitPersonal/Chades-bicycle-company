@@ -1,5 +1,25 @@
+// function NYClock() {
+//   document.clockform.dateNow.value = "4/27/2016";
+//   document.clockform.timeNow.value = "12:27:00 a.m."
+//
+//   document.clockform.daysLeft.value = "99"
+//   document.clockform.hrLeft.value = "99"
+//   document.clockform.minLeft.value = "99"
+//   document.clockform.secLeft.value = "99"
+// }
+
+
+
+
+/*
+Count down until any date script-
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+*/
+
+
 //change the text below to reflect your own,
-var before="New Product Launch"
+var before="Final Project DUE DATE!"
 var current="Today is Due Date!"
 var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
 
@@ -30,4 +50,4 @@ document.forms.count.count2.value=" Only "+dday+ " days, "+dhour+" hours, "+dmin
 setTimeout("countdown(theyear,themonth,theday)",1000)
 }
 //enter the count down date using the format year/month/day
-countdown(2016,12,31)
+countdown(2016,05,05)

@@ -16,7 +16,6 @@ body {
       margin: 1% 0 0 1%; }
     body #cbc-header .cbc-nav {
       width: 100%;
-      /* float: right;*/
       padding-top: 1.75em; }
       body #cbc-header .cbc-nav ul {
         width: 100%;
@@ -47,13 +46,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 600px;
-    /* Directory*/
-    /*products page*/
-    /* FAQ page*/
-    /* Sitemap page*/
-    /* Bike Club Links*/
-    /* end of main cbc-main-container*/ }
+    height: 600px; }
     body #cbc-main-container .cbc-welcome {
       position: absolute;
       top: 1em;
@@ -123,8 +116,7 @@ body {
       width: 30%;
       float: left;
       margin: 0 auto;
-      text-align: center;
-      /* background: #9013FE;*/ }
+      text-align: center; }
       body #cbc-main-container .cbc-dates .cbc-heading {
         color: #FFEC00; }
       body #cbc-main-container .cbc-dates p {
@@ -154,15 +146,6 @@ body {
       background: rgba(144, 19, 254, 0.3); }
       body #cbc-main-container .cbc-thead-style tr:nth-of-type(odd) {
         background: rgba(255, 255, 255, 0.4); }
-    body #cbc-main-container input {
-      width: 96%;
-      display: block;
-      margin: auto;
-      text-align: center;
-      height: 2em;
-      font-size: 1em;
-      background: #FFEC00;
-      border: none; }
     body #cbc-main-container .cbc-box-text {
       color: #FFEC00;
       width: 100%;
@@ -277,8 +260,6 @@ body {
         display: block;
         background: rgba(255, 255, 255, 0.75);
         padding: 3em 2%; }
-    body #cbc-main-container th {
-      background: #9013FE; }
   body .cbc-style-img {
     background-color: red;
     position: relative; }
@@ -301,7 +282,5 @@ body {
         text-align: left; }
   body img {
     max-width: 100%; }
-
-/* body ends*/
 
 /*# sourceMappingURL=chadestyles.css.map */
